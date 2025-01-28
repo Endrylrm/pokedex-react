@@ -1,8 +1,11 @@
-# React + Vite
+# Pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto foi realizado na DIO.me, com a premissa de criar uma Pokedex usando a PokeAPI, para aprender a consumir API Rest com Javascript através da função Fetch e Promises. Agora o projeto está utilizando React.Js, com o intuito de aprender sobre a biblioteca.
 
-Currently, two official plugins are available:
+A pokedex possuí a limitação para a primeira geração de pokemons (151 pokemons), entretanto, ela pode facilmente ser alterada para funcionar com todas as gerações, alterando a constante `MAX_POKEMONS` no arquivo `src/constants.js`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Imagens
+
+![Pokedex](/assets/img/pokedex.png "Pokedex")
+
+![Detalhes dos Pokemons](/assets/img/pokemon-details.png "Detalhes dos Pokemons")
