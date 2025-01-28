@@ -1,4 +1,4 @@
-# Pokedex
+# Pokedex - React
 
 Projeto foi realizado na DIO.me, com a premissa de criar uma Pokedex usando a PokeAPI, para aprender a consumir API Rest com Javascript através da função Fetch e Promises. Agora o projeto está utilizando React.Js, com o intuito de aprender sobre a biblioteca e como podemos utiliza-lá no ambito profissional.
 
