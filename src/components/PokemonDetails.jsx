@@ -5,6 +5,15 @@ import ReturnArrow from "../assets/return-arrow.svg";
 import { MAX_POKEMONS } from "../constants";
 
 function PokemonDetails({ pokemon }) {
+  const statsList = [
+    "HP",
+    "Attack",
+    "Defense",
+    "Sp. Attack",
+    "Sp. Defense",
+    "Speed",
+  ];
+
   function nextPokemon(id) {
     if (id <= 0) {
       id = MAX_POKEMONS;
@@ -64,19 +73,7 @@ function PokemonDetails({ pokemon }) {
         <h1 className="details-title">Base Stats</h1>
         {pokemon.stats.map((stat, index) => (
           <div key={index} className="stats">
-            <span className="stats-label">
-              {
-                [
-                  "HP",
-                  "Attack",
-                  "Defense",
-                  "Sp. Attack",
-                  "Sp. Defense",
-                  "Speed",
-                ][index]
-              }
-              :
-            </span>
+            <span className="stats-label">{statsList[index]}:</span>
             <span className="stats-value">{stat}</span>
             <progress
               className={`stats-bar bar-${pokemon.mainType}`}
